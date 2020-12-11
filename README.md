@@ -20,7 +20,7 @@
 ## Hello World test in the container
 
 ```
-> cd hello/build
+> cd src/hello/build
 > cmake ..
 > cmake --build .
 > ./hello
@@ -29,7 +29,9 @@
 ## JPEG -> WEBP Conversion in the browser using WebAssembly
 
 ```
-> cd webp
+> cd src/webp
+> git clone https://github.com/webmproject/libwebp
+
 > ./compile.sh
 > ./serve.sh
 ```
