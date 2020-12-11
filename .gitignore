@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+*.wasm
+*.out.js
 
 # Precompiled Headers
 *.gch
@@ -31,4 +33,4 @@
 *.out
 *.app
 
-src/build/
+**/build/

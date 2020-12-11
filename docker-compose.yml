@@ -2,7 +2,8 @@ version: '3.3'
 services:
   dev:
     build: .
+    working_dir: '/cpp-dev/src/'
+    ports:
+      - '5000:5000'
     volumes:
-      - type: bind
-        source: .
-        target: /cpp-dev
+      - .:/cpp-dev

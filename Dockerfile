@@ -1,4 +1,5 @@
-FROM ubuntu:18.04
+FROM emscripten/emsdk:2.0.10
 
-RUN apt-get update && \
-    apt-get install -y git build-essential cmake clang libssl-dev
+## Install anything if necessary
+# RUN apt-get update && \
+#     apt-get install -y git build-essential cmake clang libssl-dev
